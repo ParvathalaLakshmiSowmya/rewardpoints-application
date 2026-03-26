@@ -6,11 +6,9 @@ A Spring Boot REST API that calculates reward points for customer based on their
 
 # Reward Points Logic
 
-```
-- 2 points for every dollar spent above $100, 
-- 1 point for every dollar spent between $50 and $100, 
-- No points for amounts below $50, 
-```
+- 2 points for every dollar spent above $100
+- 1 point for every dollar spent between $50 and $100
+- No points for amounts below $50
 
 # Project Structure
 ```
