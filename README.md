@@ -58,8 +58,8 @@ Endpoint: GET /rewards/calculaterewardpoints/{customerId}
 | Parameter   | Type    | Description                           |
 |-------------|---------|---------------------------------------|
 | months      | Integer | Fetch rewards for last N months       |
-| startDate   | Date    | Start date (yyyy-MM-dd)               |
-| endDate     | Date    | End date (yyyy-MM-dd)                 |
+| startDate   | LocalDate    | Start date (yyyy-MM-dd)               |
+| endDate     | LocalDate    | End date (yyyy-MM-dd)                 |
 ##### Important Rules
 ```
 Provide either months OR startDate and endDate
